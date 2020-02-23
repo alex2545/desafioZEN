@@ -1,0 +1,7 @@
+create table peças(
+codigo int not null  auto_increment primary key ,
+nome varchar (200),
+veiculoAplicaçao varchar (200),
+pesoLiquido double (10,2),
+pesoBruto double (10,2)
+)
